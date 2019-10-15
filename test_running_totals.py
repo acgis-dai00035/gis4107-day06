@@ -15,7 +15,7 @@ def test_running_total():
 def strange_sum():
     expected = 6.41667
     arg = 4
-    actual = running_totals.strange_sum(arg)
+    actual = round(running_totals.strange_sum(arg),5)
     compare_expected_and_actual(arg, expected, actual)
 
 

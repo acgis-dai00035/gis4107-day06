@@ -24,7 +24,6 @@ def strange_sum(number) :
     for i in range(number+1) :
         result += float(i+1)/float(number-i)
         if i==number-1 :break
-    result =round(result,5)
     return result
 
 if __name__ == '__main__':
